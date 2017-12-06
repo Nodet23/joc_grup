@@ -67,7 +67,7 @@ public class JSONService {
     }
 
 
-    @POST
+    @POST //  rescate del proyecto
     @Path("/nuevoPersonaje/{personajeNombre}")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response nuevoPersonaje(@PathParam("personajeNombre") String nombre) {
